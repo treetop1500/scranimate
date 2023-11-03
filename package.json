@@ -1,6 +1,6 @@
 {
   "name": "scranimate",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple Javascript + CSS package to animate items into view as the user scrolls them into the viewport.",
   "main": "index.js",
   "scripts": {
