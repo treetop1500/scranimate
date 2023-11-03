@@ -2,43 +2,42 @@
   transition: all 1s ease-out;
 }
 
-
 /* Animate in from left to right */
-.scranimate.right {
+.scranimate.scranimate-right {
   transform: translateX(-2rem);
   opacity: 0;
 }
-.scranimate.right.is-visible {
+.scranimate.scranimate-right.is-visible {
   transform: translateX(0);
   opacity: 1;
 }
 
 /* Animate in from right to left */
-.scranimate.left {
+.scranimate.scranimate-left {
   transform: translateX(2rem);
   opacity: 0;
 }
-.scranimate.left.is-visible {
+.scranimate.scranimate-left.is-visible {
   transform: translateX(0);
   opacity: 1;
 }
 
 /* Animate in from top down */
-.scranimate.down {
+.scranimate.scranimate-down {
   transform: translateY(-2rem);
   opacity: 0;
 }
-.scranimate.down.is-visible {
+.scranimate.scranimate-down.is-visible {
   transform: translateY(0);
   opacity: 1;
 }
 
 /* Animate in from bottom up */
-.scranimate.up {
+.scranimate.scranimate-up {
   transform: translateY(2rem);
   opacity: 0;
 }
-.scranimate.up.is-visible {
+.scranimate.scranimate-up.is-visible {
   transform: translateY(0);
   opacity: 1;
 }

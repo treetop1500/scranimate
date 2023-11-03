@@ -17,7 +17,7 @@ threshold: 0.5
 };
 
 let observer = new IntersectionObserver(animationCallback, options);
-let animatedItems = document.querySelectorAll('.animated');
+let animatedItems = document.querySelectorAll('.scranimate');
 animatedItems.forEach((item) => {
 observer.observe(item);
 })

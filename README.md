@@ -12,14 +12,13 @@ yarn add scranimate
 ```
 ---
 ## Usage
-### Using @import
+### Add the Javascript
 ```javascript
-@import treetop1500/scranimate;
+require('[path_to_node_modules]/scranimate/src/js/scranimate.js');
 ```
-
-### Using require
-```javascript
-require('node_modules/treetop1500/scranimate');
+### Add the CSS
+```css
+@import '[path_to_node_modules]/scranimate/src/css/scranimate.css';
 ```
 
 ### Configuring Animated Elements
