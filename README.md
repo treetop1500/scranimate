@@ -2,8 +2,13 @@
 A simple Javascript + CSS package to animate items into view as the user scrolls them into the viewport.
 
 ## Installation
+### With NPM
 ```bash
-npm i treetop1500/scranimate
+npm i scranimate --save
+```
+### With Yarn
+```bash
+yarn add scranimate
 ```
 ---
 ## Usage
